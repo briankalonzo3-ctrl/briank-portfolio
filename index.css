@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(to right, gold, grey);
+}
+main,footer{
+    justify-content: center;
+    text-align: center;
+}
+.rightside{
+    color:pink;
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#titly{
+    font-family: 'Arial', sans-serif;
+    color:gold;
+    position: relative;
+    font-size:2rem;
+    margin-right: auto;    
+}
+ .nav1{
+background-color: grey;
+margin-left: -9px;
+padding-left: 20px; 
+display:flex;
+gap: 1.2rem;
+padding-right: 3vw;
+justify-content:flex-end;
+}
+    
+.rightside li a{text-decoration: none;}
+
+.nav1 ul li{display:inline-flex;
+            list-style-type:none;
+            text-decoration:none;}
+
+.profile-pic{
+    justify-self: flex-end;
+    width:35vw;
+    min-width: 50px;
+    min-height: 100px;
+    max-height:400px ;
+    height: auto;
+    border-radius:10px;
+    margin: 10px none;
+    display:inline-block;
+    opacity:70%;
+}
+#aboutdiv{display: flex;
+          justify-content: center;  
+           margin:none; }
+#about{
+    padding: 20px;
+    width:35vw;
+}
+.rightside li a:link{
+    color: blue;
+}
+.rightside li a:visited{
+    color: purple;
+}
+.rightside li a:hover{
+    color: green;
+}
+.rightside li a:focus{
+    color: rgb(230, 173, 182);
+}
+.rightside li a:active{
+    color: rgb(173, 208, 230);
+    border-bottom: 4px solid grey;
+}
+footer{background-color: goldenrod;}

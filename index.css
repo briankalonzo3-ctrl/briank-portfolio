@@ -102,6 +102,7 @@ font-size: 3rem;
     transform: translateY(-5px);
     transition: transform 200ms linear;
     background-color: cyan;
+    border-radius: 5px;
 }
 .rightside li a:focus{
     color: rgb(230, 173, 182);

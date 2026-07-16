@@ -45,16 +45,19 @@ font-size: 3rem;
 
 .nav1 ul li{display:inline-flex;
             list-style-type:none;
-            text-decoration:none;}
+            text-decoration:none;
+            margin-right:10px;
+            padding:3px;
+        }
 
 .profile-pic{
     justify-self: flex-end;
     width:35vw;
     min-width: 50px;
     min-height: 100px;
-    max-height:400px ;
+    max-height:400px;
     height: auto;
-    border-radius:10px;
+    border-radius:50%;
     margin: 10px none;
     display:inline-block;
     opacity:70%;
@@ -62,6 +65,11 @@ font-size: 3rem;
     transition:tranform 2s ease;
     box-shadow: 0 5px 5px black;
     
+}
+.targeting:target{
+    background-color:rgb(170, 100, 156);
+   color: white;
+   padding: 11px;
 }
 
 .profile-pic:hover{
@@ -107,4 +115,10 @@ footer{background-color: goldenrod;}
    background-color:rgb(170, 100, 156);
    color: white;
    padding: 11px;
+}
+.hidden{
+    display:none;
+}
+.hidden:target{
+    display:block;
 }

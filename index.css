@@ -82,13 +82,12 @@ font-size: 3rem;
     max-height:400px;
     height: 20vw;
     border-radius:50%;
-    margin: 10px none;
+    margin: 15px 0;
     display:inline-block;
     opacity:70%;
     position:relative;
     transition:tranform 2s ease;
     box-shadow: 0 5px 5px black;
-    margin:15px  0;
     
 }
 .targeting:target{

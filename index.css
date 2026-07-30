@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 @media (max-width: 768px){
     .nav1{
         flex-direction: column;
@@ -8,12 +12,12 @@
                gap: 10px;
                margin-top: 15px; 
     }
-    footer{background-color: goldenrod;
-       position:relative;
-       bottom:0%;
+    footer{
+       background-color: goldenrod;
        width:100%;
        animation: footerAnimation 40s infinite alternate;
-       align-self: flex-end;
+       text-align: center;
+       margin-top: auto;
     }
     body{
     background: linear-gradient(to right, gold, grey);
@@ -23,10 +27,15 @@
     display:flex;
     flex-direction: column;
 }
-main{
-     display:flex;
-    flex-direction: column;
 }
+
+main{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
 }
 body{
     background: linear-gradient(to right, gold, grey);
@@ -35,10 +44,8 @@ body{
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-}
-main,footer{
-    justify-content: center;
-    text-align: center;
+    flex-wrap:wrap;
+    gap:10px;
 }
 .rightside{
     color:pink;
@@ -135,12 +142,12 @@ font-size: 3rem;
     color: rgb(173, 208, 230);
     border-bottom: 4px solid grey;
 }
-footer{background-color: goldenrod;
-       position:relative;
-       bottom:0%;
+footer{
+       background-color: goldenrod;
        width:100%;
        animation: footerAnimation 40s infinite alternate;
-       align-self: flex-end;
+       text-align: center;
+       margin-top: auto;
     }
 .mass-hovering:hover{
    background-color:rgb(170, 100, 156);
@@ -183,4 +190,29 @@ footer a{
     text-decoration: none;
     text-decoration: underline;
     color:cyan;
+}
+
+footer section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+footer h2{
+    align-self: center;
+}
+#to-top{
+    background-color: goldenrod;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    align-self: flex-end;
 }

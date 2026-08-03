@@ -49,6 +49,7 @@ main{
     justify-content: space-between;
     align-items: flex-start;
     flex:1;
+    top:auto;
 }
 .container em{
     font-size: 0.8rem;
@@ -148,6 +149,7 @@ font-size: 3rem;
 #about{
     padding: 20px;
     width:35vw;
+    scroll-margin-top: 150px;
 }
 #big-icon{
     height: 8vh;
@@ -191,6 +193,7 @@ footer{
 }*/
 .hidden{
     display:none;
+    scroll-margin-top: 150px;
 }
 body:has(.hidden:target) #aboutdiv {
   display: none;

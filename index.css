@@ -241,6 +241,7 @@ footer section{
 }
 footer h2{
     align-self: center;
+    transform: translatex(40px);
 }
 #to-top{
     background-color: goldenrod;

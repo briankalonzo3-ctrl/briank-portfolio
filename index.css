@@ -278,3 +278,6 @@ footer button a{
     font-size: 1rem;
     padding: 5px 10px;
 }
+.navigation-2 p{
+    align-self: center;
+}

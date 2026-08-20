@@ -1,0 +1,25 @@
+body{
+    background-color: yellow;
+    overflow-x:scroll;
+    min-width:100vw;
+    justify-content:center;
+}
+.projects-view{
+display:flex;
+flex-direction: row;
+gap:30px;
+height: 30vw;
+padding:50px;
+margin:0 auto;
+justify-content: center;
+}
+img{
+    box-shadow: 0 10px 10px #000000 ;
+    width: 30%;
+}
+h2{
+    text-align:center;
+}
+footer p{
+    text-align: center;
+}
